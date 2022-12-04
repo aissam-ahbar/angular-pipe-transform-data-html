@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+  // Variables to render and format with pipes in the HTML
   happynewyear: Date = new Date(2023, 0, 1);
   name: string = 'aissam';
   salary: number = 1500.5;
